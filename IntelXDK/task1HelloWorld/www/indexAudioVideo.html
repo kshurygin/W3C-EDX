@@ -1,0 +1,26 @@
+<!doctypy html>
+<html lang="ru">
+    <head>
+        <title>Audio &amp; Video</title>
+    </head>
+    <body>
+        <div>
+            <audio controls preload="metadata">
+                <source src="assets/audio/Carmen.wav" type="audio/wav">
+                <source src="assets/audio/Carmen.mp3" type="audio/mpeg">
+                Your browser does not support this audio
+            </audio>
+        </div>
+        <div>
+            <video controls width="25%">
+                <source src="assets/video/Kira.mp4" type="video/mp4">
+                <track src="assets/video/KiraRu.vtt" kind="subtitles" srclang="ru" label="Russian" default>
+                <track src="assets/video/KiraEn.vtt" kind="subtitles" srclang="en" label="English">
+                Your browser does not support this audio
+            </video>
+        </div>
+        <div style="background: lightgrey; text-decoration: none; color: darkred; padding: 5px 0px; margin-top: 10px; width: 100%; text-align: center; border: 1px solid darkred;">
+            <a href="index.html">BACK TO MAIN PAGE</a>
+        </div>
+    </body>
+</html>
